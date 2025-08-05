@@ -1,4 +1,4 @@
-package builder;
+package trash;
 
 public class Builder {
     private Integer id;
@@ -7,21 +7,6 @@ public class Builder {
     private double psp;
     private Integer gradYear;
 
-//    public void setId(Integer id) {
-//        this.id = id;
-//    }
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//    public void setAge(int age) {
-//        this.age = age;
-//    }
-//    public void setPsp(double psp) {
-//        this.psp = psp;
-//    }
-//    public void setGradYear(Integer gradYear) {
-//        this.gradYear = gradYear;
-//    }
     public Builder setId(Integer id) {
         this.id = id;
         return this;
@@ -58,8 +43,8 @@ public class Builder {
         return this.gradYear;
     }
 
-    public Student build() {
-        return new Student(this);
-    }
+//    public Student build() {
+//        return new Student(this);
+//    }
 
 }
